@@ -6,9 +6,12 @@ const Hero: React.FC = () => {
     <section className="min-h-[85vh] flex items-center justify-center relative bg-white">
       <div className="container mx-auto px-4 md:px-8 py-16 md:py-24">
         <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-tight tracking-tight animate-pulse text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
-            Editor & Designer 
-          </h1>
+        <h1 className="text-5xl md:text-7xl font-bold mb-8 tracking-tight leading-none">
+  <span className="inline-block text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 pb-3">
+    Editor & Designer 
+  </span>
+</h1>
+
           <p className="text-lg md:text-xl mb-12 max-w-xl mx-auto text-gray-700">
             <span className="font-semibold">Media Controller at</span> <span className="font-bold">@BONOXS </span><br />
             <span className="font-semibold">Social Media at</span> <span className="font-bold">@CurralzinhoCPC </span><br />
