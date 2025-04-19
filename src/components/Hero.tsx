@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
         <div className="max-w-3xl mx-auto text-center">
         <h1 className="text-5xl md:text-7xl font-bold mb-8 tracking-tight leading-none">
   <span className="inline-block text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 pb-3">
-    Editor & Designerr 
+    Editor & Designer
   </span>
 </h1>
 
